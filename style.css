@@ -335,20 +335,24 @@ footer{
     .hero .heading{
     font-size: 32px;
     }
-}
-
-@media  screen and (max-width: 350px) {
-    nav img{
-    width: 100px;
-    }
-
     .btn-nav select{
         padding: 5px 10px;
+        font-size: 10px;
     }
 
     .btn-nav button{
         padding: 5px 10px;
+        font-size: 10px;
     }
+    nav img{
+       width:100px;
+    }
+}
+
+@media  screen and (max-width: 350px) {
+    
+
+    
 
     .inp-btn input{
         width: 200px;
